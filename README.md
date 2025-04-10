@@ -21,7 +21,7 @@ test_features = scaler.transform(test_features)
 ### ⚙️ Models & Hyperparameter Tuning
 All models were trained using an 80/20 train-test split and optimized via GridSearchCV (5-fold cross-validation) to minimize Mean Squared Error (MSE).
 
-### 1. 🌲 Random Forest Regression (RF)
+#### 1. 🌲 Random Forest Regression (RF)
 
 A non-linear ensemble model with internal feature importance metrics.
 
