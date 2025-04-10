@@ -1,6 +1,6 @@
 # 🔍 Electricity Consumption Prediction using Supervised Learning Models
 
-This repository provides code and description of methodology along with the dataset.csv file for predicting monthly electricity consumption across 48 U.S. states using a range of supervised learning models.
+This repository provides code and description of methodology along with the dataset.csv file for predicting monthly electricity consumption across 48 U.S. states using a range of supervised learning models. 
 
 ### 📁 Dataset
 The dataset used in this project is sourced from six key U.S. government agencies and has been meticulously merged to enable comprehensive analysis. It encompasses a wide range of data points, including energy consumption patterns, economic indicators, weather data, demographics, and environmental factors.
