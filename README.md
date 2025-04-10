@@ -50,7 +50,7 @@ feature_importances = sorted(zip(feature_list, importances), key=lambda x: x[1],
 for feature, score in feature_importances:
     print(f"{feature}: {score:.5f}")
 ```
-### 2. ⚡ XGBoost Regression
+#### 2. ⚡ XGBoost Regression
 A high-performance boosting model optimized for tabular data.
 
 ```python
@@ -69,7 +69,7 @@ grid_search.fit(train_features, train_labels)
 xgb_model = grid_search.best_estimator_
 xgb_predictions = xgb_model.predict(test_features)
 ```
-### 3. 📈 Support Vector Regression (SVR)
+#### 3. 📈 Support Vector Regression (SVR)
 Effective for high-dimensional and sparse feature spaces.
 
 ```python
@@ -87,7 +87,7 @@ grid_search.fit(train_features, train_labels)
 svr_model = grid_search.best_estimator_
 svr_predictions = svr_model.predict(test_features)
 ```
-### 4. 🔮 Gaussian Process Regression (GPR)
+#### 4. 🔮 Gaussian Process Regression (GPR)
 Bayesian model for modeling nonlinear trends.
 
 ```python
@@ -106,7 +106,7 @@ grid_search.fit(train_features, train_labels)
 gpr_model = grid_search.best_estimator_
 gpr_predictions = gpr_model.predict(test_features)
 ```
-### 5. 📉 NGBoost (Natural Gradient Boosting)
+#### 5. 📉 NGBoost (Natural Gradient Boosting)
 Probabilistic boosting model that provides flexible approximation.
 
 ```python
@@ -125,7 +125,7 @@ grid_search.fit(train_features, train_labels)
 ngb_model = grid_search.best_estimator_
 ngb_predictions = ngb_model.predict(test_features)
 ```
-### 6. 👥 K-Nearest Neighbors Regression (KNN)
+#### 6. 👥 K-Nearest Neighbors Regression (KNN)
 Non-parametric approach that uses similarity between observations.
 
 ```python
@@ -143,7 +143,7 @@ grid_search.fit(train_features, train_labels)
 knn_model = grid_search.best_estimator_
 knn_predictions = knn_model.predict(test_features)
 ```
-### 7. ➕ Multilinear Regression (MLR)
+#### 7. ➕ Multilinear Regression (MLR)
 Baseline linear model for comparison.
 
 ```python
