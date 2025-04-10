@@ -2,7 +2,8 @@
 
 This repository provides code and description of methodology along with the dataset.xlsx file for predicting monthly electricity consumption across 48 U.S. states using a range of supervised learning models.
 
-📄 Paper Under Submission
+### 📄 Paper Under Submission
+
 This repository is associated with the paper titled:
 
 "**Electricity Demand Prediction Using Data-Driven Models: A Comprehensive Multi-Sector Analysis of Energy Consumption Dynamics**"
