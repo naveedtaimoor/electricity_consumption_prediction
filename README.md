@@ -8,7 +8,7 @@ This repository is associated with the paper titled:
 
 "**Electricity Demand Prediction Using Data-Driven Models: A Comprehensive Multi-Sector Analysis of Energy Consumption Dynamics**"
 
-The paper is currently in preparation for submission to the journal Sustainable Energy, Grids and Networks and has not yet been published.
+The paper is currently in preparation for submission to the journal International Journal of Electrical Power & Energy Systems and has not yet been published.
 
 ### 📁 Dataset
 The dataset used in this project is sourced from six key U.S. government agencies and has been meticulously merged to enable comprehensive analysis. It encompasses a wide range of data points, including energy consumption patterns, economic indicators, weather data, demographics, and environmental factors.
